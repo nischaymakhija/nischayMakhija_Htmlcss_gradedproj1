@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylessecondpage.css">
+    <title>Lab Test Form</title>
+</head>
+<body>
+    <div class="form">
+        <form action="" method="post">
+        <h2>1.Your Contact Details</h2>
+        <input type="text" placeholder="Full Name" class="textline">
+        <input type="number" placeholder="Patient Id(if exists)" class="textline"><br>
+        <input type="text" placeholder="Contact Number" class="textline">
+        <input type="email" placeholder="Email ID" class="textline">
+        <br>
+        <h2>2.Address</h2>
+        <input type="number" placeholder="H-No" class="textline">
+        <input type="text" placeholder="Street" class="textline"><br>
+        <input type="text" placeholder="Area" class="textline">
+        <br>
+        <h4>District</h4><br>
+        <select>
+            <option value="" disabled selected hidden>Choose</option>
+            <option value="Amravati">Amravati</option>
+            <option value="Baramati">Baramati</option>
+            <option value="Kolhapur">Kolhapur</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Nashik">Nashik</option>
+            <option value="Pune">Pune</option>
+            <option value="Thane">Thane</option>
+        </select>
+        <br>
+        <h2>3.Test Type</h2>
+        <input type="radio" value="CBC"><label>CBC</label><br>
+        <input type="radio" value="Complete Urine"><label>Complete Urine</label><br>
+        <input type="radio" value="Lipid Profile"><label>Lipid Profile</label><br>
+        <input type="radio" value="Thyroid Stimulating Hormone(TSH)"><label>Thyroid Stimulating Hormone(TSH)</label><br>
+        <input type="radio" value="Glucose Test">Glucose Test</label>
+        <br>
+        <h2>4.Do you want a hard copy of the report also?</h2>
+        <input type="radio" value="Yes"><label>Yes</label><br>
+        <input type="radio" value="No"><label>No</label>
+        <br>
+        <h2>5.Select Your Comfortable Date and Time</h2>
+        <input type="datetime-local" name=" Test Date and Time">
+        <br>
+        <br>
+        </form>
+
+    </div>
+    <button>Reset</button>
+        <input type="submit" id="submitbutton">
+    
+</body>
+</html>
